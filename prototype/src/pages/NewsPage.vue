@@ -1,6 +1,5 @@
 <template>
   <div>
-<<<<<<< HEAD
     <div>
       <side-bar></side-bar>
     </div>
@@ -92,23 +91,4 @@
     border-bottom: 2px solid black;
     background-color: rgb(208, 255, 0);
   }
-=======
-    <side-bar></side-bar>
-    
-  </div>
-</template>
-<script>
-import SideBar from '../components/SideBar.vue'
-  export default {
-  components: { SideBar },
-    name: 'NewsPage',
-    data() {
-      return {}
-    },
-    methods: {},
-    created() {}
-  }
-</script>
-<style>
->>>>>>> 8dba1ebb1525f2da3b3b75ef7e4c73457d5d870e
 </style>
