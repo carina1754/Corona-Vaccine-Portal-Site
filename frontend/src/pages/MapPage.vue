@@ -1,5 +1,5 @@
 <template>
-  <div style = "padding: 0px 0px 0px 300px;">
+  <div style = "padding: 0px 0px 0px 330px;">
     <side-bar></side-bar>
     <div class = "map_title">
         <p>코로나 확진자 동선</p>

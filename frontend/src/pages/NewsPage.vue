@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style = "padding: 0px 0px 0px 330px;">
     <div>
       <side-bar></side-bar>
     </div>
