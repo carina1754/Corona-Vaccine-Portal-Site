@@ -6,11 +6,12 @@ import RegisterPage from '@/pages/RegisterPage.vue'
 import IdSearchPage from '@/pages/IdSearchPage.vue'
 import MapPage from '@/pages/MapPage.vue'
 import NewsPage from '@/pages/NewsPage.vue'
-import CovidVaccinationPage from '@/pages/CovidVaccinationPage.vue'
+// import CovidVaccinationPage from '@/pages/CovidVaccinationPage.vue'
 import CovidVaccineReviewPage from '@/pages/CovidVaccineReviewPage.vue'
+import CovidStatusPage from '@/pages/CovidStatus.vue'
+// import Index from '@/components/MovieIndexPage'
+// import Show from '@/components/MovieDetailPage'
 
-import Index from '@/components/MovieIndexPage'
-import Show from '@/components/MovieDetailPage'
 Vue.use(Router) 
 
 export default new Router({
@@ -39,22 +40,27 @@ routes : [
         path: '/News',
         component: NewsPage
     },
-    {
-        path: '/CovidVaccination',
-        component: CovidVaccinationPage
-    },
+    // {
+    //     path: '/CovidVaccination',
+    //     component: CovidVaccinationPage
+    // },
     {
         path: '/CovidVaccineReview',
         component: CovidVaccineReviewPage
-    },{
-        path: '/asd',
-        name: 'index',
-        component: Index
-      },
-      {
-        path: '/asd/:id',
-        name: 'show',
-        component: Show
-      }
+    },
+    {
+        path: '/CovidStatus',
+        component: CovidStatusPage
+    },
+    // {
+    //     path: '/asd',
+    //     name: 'index',
+    //     component: Index
+    //   },
+    //   {
+    //     path: '/asd/:id',
+    //     name: 'show',
+    //     component: Show
+    //   }
     ]
 })
